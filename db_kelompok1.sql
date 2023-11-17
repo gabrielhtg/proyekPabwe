@@ -4,10 +4,10 @@ CREATE USER 'userpabwe'@'localhost' IDENTIFIED BY 'pabwe';
 
 CREATE DATABASE proyek_pabwe;
 
-# GRANT ALL PRIVILEGES ON proyek_pabwe.* TO 'userpabwe'@localhost;
+GRANT ALL PRIVILEGES ON proyek_pabwe.* TO 'userpabwe'@localhost;
 
-# Membuat tabel admin
-
+show databases ;
+# Kelompok 1
 CREATE TABLE admin (
     username varchar(20) primary key ,
     first_name varchar(15) not null ,
@@ -49,3 +49,4 @@ create table testimoni_alumni (
     created_at timestamp default current_timestamp,
     foreign key (created_by) references admin(username)
 );
+
