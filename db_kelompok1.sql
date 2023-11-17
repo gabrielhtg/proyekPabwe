@@ -1,6 +1,10 @@
 # Membuat user baru untuk pabwe di database
 
+flush privileges ;
+
 CREATE USER 'userpabwe'@'localhost' IDENTIFIED BY 'pabwe';
+
+select user from from mysql.user;
 
 CREATE DATABASE proyek_pabwe;
 
