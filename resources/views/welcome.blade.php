@@ -114,22 +114,67 @@
                     <div class="carousel-item active">
                         <img src="{{ asset("/assets/img/beasiswa-tolikara.jpeg") }}" class="d-block w-100" alt="beasiswa-tolikara">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
+                            <div class="ukuran-div-beasiswa p-5">
+                                <div class="text-start">
+                                    <span class="text-white fs-4"><i>Telah Dibuka</i></span>
+                                    <br>
+                                    <span class="text-white mt-5 fs-3 ms-4"><strong>Beasiswa Tolikara 1</strong></span>
+                                </div>
+
+                                <div class="text-start align-self-end mt-5">
+                                    <span>Pendaftaran : </span>
+                                    <br>
+                                    <span>dd/mm/yyyy s/d dd/yy/mmmm</span>
+                                </div>
+                            </div>
+
+                            <div class="mb-4 mt-5 text-end">
+                                <button class="tombol-kita text-oyen"><strong>Daftar Sekarang</strong></button>
+                            </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="{{ asset("/assets/img/beasiswa-tolikara.jpeg") }}" class="d-block w-100" alt="beasiswa-tolikara">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
+                            <div class="ukuran-div-beasiswa p-5">
+                                <div class="text-start">
+                                    <span class="text-white fs-4"><i>Telah Dibuka</i></span>
+                                    <br>
+                                    <span class="text-white mt-5 fs-3 ms-4"><strong>Beasiswa Tolikara 2</strong></span>
+                                </div>
+
+                                <div class="text-start align-self-end mt-5">
+                                    <span>Pendaftaran : </span>
+                                    <br>
+                                    <span>dd/mm/yyyy s/d dd/yy/mmmm</span>
+                                </div>
+                            </div>
+
+                            <div class="mb-4 mt-5 text-end">
+                                <button class="btn bg-white text-oyen"><strong>Daftar Sekarang</strong></button>
+                            </div>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="{{ asset("/assets/img/beasiswa-tolikara.jpeg") }}" class="d-block w-100" alt="beasiswa-tolikara">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
+                            <div class="ukuran-div-beasiswa p-5">
+                                <div class="text-start">
+                                    <span class="text-white fs-4"><i>Telah Dibuka</i></span>
+                                    <br>
+                                    <span class="text-white mt-5 fs-3 ms-4"><strong>Beasiswa Tolikara 3</strong></span>
+                                </div>
+
+                                <div class="text-start align-self-end mt-5">
+                                    <span>Pendaftaran : </span>
+                                    <br>
+                                    <span>dd/mm/yyyy s/d dd/yy/mmmm</span>
+                                </div>
+                            </div>
+
+                            <div class="mb-4 mt-5 text-end">
+                                <button class="tombol-kita text-oyen"><strong>Daftar Sekarang</strong></button>
+                            </div>
                         </div>
                     </div>
                 </div>
