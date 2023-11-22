@@ -3,3 +3,15 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
+
+.navbar-nav .nav-link.active {
+    border-bottom: 2px solid #461973;
+}
+
+.custom-justified-text {
+    text-align: justify;
+}
+
+.custom-image {
+    width: 747px;
+}
